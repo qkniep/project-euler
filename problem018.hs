@@ -4,6 +4,7 @@
 -- Distributed under terms of the MIT license.
 
 -- naive solution, see problem 67 for better solution to the same problem
+-- this solution has runtime O(2^n), where n is the height of the triangle
 
 main = putStrLn (show (maxPath 0 0))
 
